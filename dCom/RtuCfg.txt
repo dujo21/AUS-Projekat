@@ -1,0 +1,10 @@
+STA 197
+TCP 52613
+
+
+DO_REG  2 4400   0  0      1     0  DO  @V #
+DO_REG  4 4402   0  0      1     0  DO  @P #
+IN_REG  1 2600  0  0   4095  0  AI  @A #
+IN_REG  2 2601  0  0   4095  0  AI  @S #
+HR_INT  1 2800  0  0   4095  0  AO  @B #
+HR_INT  1 2801  0  0   4095  0  AO  @K #
